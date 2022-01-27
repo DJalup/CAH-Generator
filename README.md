@@ -14,3 +14,4 @@ For those interested in making their own card images from scratch, 'notes.rtf' h
 Fork: I have been updating this code to work on modern servers. I have also added several things. This is still a work in progress I will update as I fix stuff. Be paient please.
 
 UPDATE: The code is fully working now, Remember to chmod -R 777 your entire working directory. This will allow the cards to show and download.
+        See it working on the newest version at http://erftech.com/CAH
