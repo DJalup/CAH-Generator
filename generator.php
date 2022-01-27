@@ -2,7 +2,7 @@
 setlocale(LC_CTYPE, "UTF8", "en_US.utf8");
 
 // Quick and dirty way to run on the command line for testing
-// Example: php generator.php 'batch-id=submit_d6bsd1asidal120&card-text=test&card-color=white&icon=none'
+// Example: php generator.php 'batch-id=submit_d6bsd1asidal120&card-text=test&card-color=white&icon=none&mechanic=none'
 //
 if (!isset($_SERVER["HTTP_HOST"])) {
     parse_str($argv[1], $_GET);
