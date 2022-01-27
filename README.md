@@ -9,3 +9,6 @@ You can see it in action at:
 http://mywastedlife.com/CAH
 
 For those interested in making their own card images from scratch, 'notes.rtf' has the closest I have to something you can use to recreate the steps I took. Every time I tried something new that I felt I might want to reference back to, I threw it in there. It's by no means complete, will probably frustrate you more than help you, and I apologize in advance for not caring.
+
+
+Fork: I have been updating this code to work on modern servers. I have also added several things. This is still a work in progress I will update as I fix stuff. Be paient please.
