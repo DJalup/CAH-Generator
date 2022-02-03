@@ -56,3 +56,7 @@ convert CAH/Templates/front-white.png -units PixelsPerInch -font ~/HelveticaNeue
 \'97\'97\
 \
 convert img/black-mechanic-p2.png -units PixelsPerInch -density 1200 -draw "rotate 17 image over 1719,3492 0,0 '../Assets/tardis.png'" version_test.png}
+\
+Below imagemagick script will draw the card, put the "cards against humanity" text at the bottom of the image and put the "The quick brown fox jumps over the lazy dog" on the card.
+./convert -size 3288x4488 xc:white -fill black -pointsize 248 -font ./fonts/HelveticaNeueBold.ttf -annotate +445+639 "The quick brown fox \njumps over the lazy \ndog" -pointsize 86 -annotate +805+3985 "Cards Against Humanity" testwhitecard.png
+\
