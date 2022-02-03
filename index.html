@@ -394,7 +394,7 @@
 					max_attempts = 10,
 					loadImages = function(attempt){
 						var img = new Image(),
-						    imgURL = 'files/' + batch + '/' + batch  + '_' + i + '.png';
+						    imgURL = './files/' + batch + '/' + batch  + '_' + i + '.png';
 						    
 						    if ($(col).html() != $(spinner).get(0).outerHTML) {
 							col = $('<div>').attr({
